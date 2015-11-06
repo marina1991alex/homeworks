@@ -1,0 +1,58 @@
+body {
+	background: url(../images/wallpaper.png);
+	background-attachment: fixed;
+	margin-left: 50px;
+	margin: 20px 20px;
+}
+h1 {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	font-size: 25px;
+	color: #006600;
+	text-align: center;
+}
+p {
+	font-family: Book Antiqua, Palatino Linotype, Palatino, serif;
+	color: #000099;
+	text-indent: 30px;
+	line-height: 20px;
+}
+.contact {
+	text-align: center;
+}
+.picture {
+	text-align: center;
+}
+img {
+	border-radius:20px;
+}
+table {
+	margin: auto;
+}
+.email {
+	background: url(../images/mail.png);
+	display:block;
+	height:128px;
+	width:128px;
+}
+.email:hover {
+	background-position:0 -128px;
+}
+.vk {
+	background: url(../images/vk.png);
+	display: block;
+	height: 123px;
+	width: 128px;
+}
+.vk:hover {
+	background-position:0 -124px;
+}
+.facebook {
+	background: url(../images/facebk.png);
+	display:block;
+	height:128px;
+	width:128px;
+}
+.facebook:hover {
+	background-position:0 -128px;
+}
+
