@@ -1,0 +1,47 @@
+body {
+	width: 70%;
+}
+table {
+	margin: 0 auto 20px;
+}
+td {
+	padding: 10px;
+}
+.first {
+	width: 100%;
+	margin: 10px 10px;
+}
+.second {
+	width: 60%;
+}
+.third {
+	width: 60%;
+}
+.bold {
+	font-weight: bold;
+}
+.heading {
+	font-weight: bold;
+	line-height: 25px;
+}
+table.first, table.first td, table.first th {
+	border: 1px double black;
+}
+table.first {
+	display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: black;
+}
+table.second, table.second td, table.second th {
+	border: 1px double black;
+}
+table.second {
+	display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: black;
+}
+table.third td {
+	border: 2px solid black;
+}

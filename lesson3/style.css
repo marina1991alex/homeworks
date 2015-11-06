@@ -1,0 +1,18 @@
+body {
+	text-align: center;
+	padding-top: 300px;
+	padding-left: auto;
+	background-color: #ffff66;
+}
+a {
+	background-color: lightgreen;
+	font-size: 70px;
+	color: green;
+	text-decoration: none;
+	padding: 25px;
+	border: 10px double; 
+}
+a:hover{
+	color: red;
+	background-color: pink;
+}
