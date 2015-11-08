@@ -1,0 +1,61 @@
+.wrapper {
+	margin-left: 30px;
+}
+form {
+	width:60%;
+}
+ul {
+	padding-left: 5px;
+}
+li {
+	list-style-type: none;
+	line-height: 20px;
+}
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#header {
+	line-height: 50px;
+}
+fieldset {
+	border: 1px solid darkgrey;
+	padding: 20px;
+	margin: 15px;
+}
+input[type="text"]{
+	width: 200px;
+}
+.about {
+	font-size: 12px;
+}
+input.age {
+	width: 50px;
+}
+input.info {
+	width: 140px;
+}
+legend, .bold_title {
+	font-weight: bold; 
+}
+.bold_title {
+	line-height: 35px;
+}
+.italic_title {
+	font-style: italic;
+	padding-bottom: 15px;
+}
+.text_forms {
+	padding-top: 20px;
+	font-weight: bold;
+}
+fieldset.first_fieldset li {
+	padding-bottom: 10px;
+}
+.send {
+	margin: 0 15px;
+}

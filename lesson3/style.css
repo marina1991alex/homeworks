@@ -1,0 +1,21 @@
+.wrapper {
+	text-align: center;
+	padding-left: auto;
+}
+li {
+	list-style-type: none;
+	padding-bottom: 20px;
+}
+li:first-child {
+	margin-top: 170px;
+}
+a {
+	font-size: 70px;
+	color: green;
+	text-decoration: none;
+	padding: 25px;
+}
+a:hover{
+	color: red;
+	background-color: pink;
+}
