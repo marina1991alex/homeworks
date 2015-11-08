@@ -1,10 +1,12 @@
-body {
-	background: url(../images/wallpaper.png);
-	background-attachment: fixed;
+.wrapper {
 	margin-left: 50px;
 	margin: 20px 20px;
 }
-h1 {
+body {
+	background: url(../images/wallpaper.png);
+	background-attachment: fixed;
+}
+h1, h2, h3 {
 	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
 	font-size: 25px;
 	color: #006600;
@@ -16,6 +18,13 @@ p {
 	text-indent: 30px;
 	line-height: 20px;
 }
+li {
+	list-style-type: none;
+	float: left;
+}
+.icons {
+	margin-left: 450px;
+}
 .contact {
 	text-align: center;
 }
@@ -24,9 +33,6 @@ p {
 }
 img {
 	border-radius:20px;
-}
-table {
-	margin: auto;
 }
 .email {
 	background: url(../images/mail.png);
