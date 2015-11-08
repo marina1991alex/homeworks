@@ -1,16 +1,19 @@
-body {
+.wrapper {
 	text-align: center;
-	padding-top: 300px;
 	padding-left: auto;
-	background-color: #ffff66;
+}
+li {
+	list-style-type: none;
+	padding-bottom: 20px;
+}
+li:first-child {
+	margin-top: 170px;
 }
 a {
-	background-color: lightgreen;
 	font-size: 70px;
 	color: green;
 	text-decoration: none;
 	padding: 25px;
-	border: 10px double; 
 }
 a:hover{
 	color: red;
