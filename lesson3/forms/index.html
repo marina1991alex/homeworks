@@ -7,6 +7,7 @@
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
+		<div class="wrapper">
 		<div id="header">
 			<h1>Урок "Формы": теги и их атрибуты</h1>
 			<h2>Расскажите немного о себе...</h2>
@@ -19,11 +20,11 @@
 						<ul>
 							<li>
 								<label>Имя:</label>
-								<input type="text" name="f_name" value="">
+								<input type="text" name="f_name">
 							</li>
 							<li>
 								<label>Фамилия:</label>
-								<input type="text" name="l_name" value="">
+								<input type="text" name="l_name">
 							</li>
 							<li class="short">
 								Пол:
@@ -34,7 +35,7 @@
 							</li>
 							<li>
 								<label>Возраст</label>
-								<input type="text" name="age" value="" class="age">
+								<input type="text" name="age" class="age">
 								лет
 							</li>
 						</ul>
@@ -51,19 +52,19 @@
 								<label>Девушка</label>
 							</li>
 							<li>
-								<input type="text" name="birth_day" value="" class="info">
+								<input type="text" name="birth_day" class="info">
 								<label>Дата рождения</label>
 							</li>
 							<li>
-								<input type="text" name="f_status" value="" class="info">
+								<input type="text" name="f_status" class="info">
 								<label>Семейное положение</label>
 							</li>
 							<li>
-								<input type="text" name="c_status" value="" class="info">
+								<input type="text" name="c_status" class="info">
 								<label>Социальный статус</label>
 							</li>
 							<li>
-								<input type="text" name="address" value="" class="info">
+								<input type="text" name="address" class="info">
 								<label>Местожительство</label>
 							</li>
 						</ul>
@@ -73,19 +74,19 @@
 							<ul>
 								<li>
 									<label>
-									<input type="checkbox" name="weekends []" value="сплю">Сплю</label>
+									<input type="checkbox" name="weekends[]" value="сплю">Сплю</label>
 								</li>
 								<li>
 									<label>
-									<input type="checkbox" name="weekends []" value="гуляю">Гуляю с друзьями</label>
+									<input type="checkbox" name="weekends[]" value="гуляю">Гуляю с друзьями</label>
 								</li>
 								<li>
 									<label>
-									<input type="checkbox" name="weekends []" value="рыбалка">Хожу на рыбалку</label>
+									<input type="checkbox" name="weekends[]" value="рыбалка">Хожу на рыбалку</label>
 								</li>
 								<li>
 									<label>
-									<input type="checkbox" name="weekends []" value="игры">Играю в игры</label>
+									<input type="checkbox" name="weekends[]" value="игры">Играю в игры</label>
 								</li>
 							</ul>
 							</li>
@@ -123,7 +124,7 @@
 								<textarea name="comments" rows="10" cols="45"></textarea>
 							</li>
 							<li>
-								<select name="positions" size="3">
+								<select name="positions" size="3" multiple>
 									<option value="1_pos">Первая позиция</option>
 									<option value="2_pos" selected>Вторая позиция</option>
 									<option value="3 pos">Третья позиция</option>
@@ -143,21 +144,21 @@
 								<label>E-mail:</label>
 							</li>
 							<li>
-								<input type="text" name="email" value="">
+								<input type="text" name="email">
 							</li>
 							<li class="text_forms">Хотите подписаться на самую модную рассылку спама?</li>
 							<li class="italic_title">Выберите категории</li>
 							<li>
 								<label>
-								<input type="checkbox" name="spam []" value="equipment">Оборудование</label>
+								<input type="checkbox" name="spam[]" value="equipment">Оборудование</label>
 							</li>
 							<li>								
 								<label>
-								<input type="checkbox" name="spam []" value="dinner">Как приготовить обеды</label>
+								<input type="checkbox" name="spam[]" value="dinner">Как приготовить обеды</label>
 							</li>
 							<li>
 								<label>
-								<input type="checkbox" name="spam []" value="million">Заработай миллион за два дня!</label>
+								<input type="checkbox" name="spam[]" value="million">Заработай миллион за два дня!</label>
 							</li>
 							<li class="bold_title">На сколько сложная задача:</li>
 							<li>
@@ -178,6 +179,7 @@
 					<input type="submit" value="Отправить" class="send">
 					</div>
 			</form>
+		</div>
 		</div>
 	</body>
 </html>
