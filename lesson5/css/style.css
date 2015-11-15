@@ -180,28 +180,89 @@ li .sidebar_head{
 	font: 11px Tahoma;
 	color: #555555;
 }
+.lifestyle_travel li {
+	list-style-type: none;
+	display: inline;
+	font: 11px Tahoma;
+	color: #191919;
+}
 .content img {
 	width: 510px;
 	height: 250px;
 	margin-bottom: 20px;
 }
-.first_paragraph{
+.first_paragraph {
 	margin-bottom: 50px;
-}
-.first_paragraph p{
-	line-height: 15px;
-	color: black;
 }
 .first_paragraph .sentence {
 	font: 12px Tahoma;
 	color: #555555;
 	margin-bottom: 25px;
 	line-height: 15px;
+} 
+.first_paragraph li {
+	list-style-type: none;
+	font: 11px Tahoma;
 }
-.first_paragraph span {
+.share li {
+	display: inline-block;
+	color: #191919;
+	padding-right: 2px;
+}
+.share li span {
+	color: #878787;
+	float: left;
+}
+.date {
+	float: left;
+	padding-right: 2px;
+}
+.date li {
+	display: inline-block;
+	color: #191919;
+	padding-right: 2px;
+}
+.date li span {
+	display: inline-block;
 	color: #878787;
 }
+.tags {
+	float: left;
+	padding-right: 2px;
+}
+.tags li {
+	display: inline-block;
+	color: #191919;
+	padding-right: 2px;
+}
+.tags li span {
+	display: inline-block;
+	color: #878787;
+}
+.comments {
+	float: left;
+	padding-right: 2px;
+}
+.comments li {
+	display: inline-block;
+	color: #191919;
+	padding-right: 2px;
+}
+.comments li span {
+	display: inline-block;
+	color: #878787;
+}
+.home_family li{
+	list-style-type: none;
+	display: inline;
+	font: 11px Tahoma;
+	color: #191919;
+}
+.second_part {
+	list-style-type: none;
+}
 .home {
+	list-style-type: none;
 	margin-bottom: 60px;
 	margin-right: 20px;
 }
@@ -212,6 +273,7 @@ li .sidebar_head{
 }
 .home p{
 	line-height: 15px;
+	color: #191919;
 }
 .home span {
 	font: 11px Tahoma;
@@ -231,7 +293,12 @@ li .sidebar_head{
 	margin-right: 345px;
 	margin-top: 30px;
 }
+.home_under_img li {
+	font: 11px Tahoma;
+	color: #191919;
+}
 .work{
+	list-style-type: none;
 	margin-bottom: 60px;
 	margin-right: 20px;
 }
@@ -242,6 +309,7 @@ li .sidebar_head{
 }
 .work p {
 	line-height: 15px;
+	color: #191919;
 }
 .work span {
 	font: 11px Tahoma;
@@ -260,6 +328,10 @@ li .sidebar_head{
 	overflow: hidden;
 	margin-right: 345px;
 	margin-top: 65px;
+}
+.work_under_img li{
+	font: 11px Tahoma;
+	color: #191919;
 }
 .page_selector li{
 	display: inline;
@@ -285,5 +357,9 @@ li .sidebar_head{
 	padding-bottom: 20px;
 	padding-left: 20px;
 	font: 11px Tahoma;
+	color: #555555;
+}
+.footer a {
+	text-decoration: none;
 	color: #555555;
 }
