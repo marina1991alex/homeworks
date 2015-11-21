@@ -1,0 +1,241 @@
+.wrapper {
+	margin: 0 auto;
+	width: 960px;
+}
+body{
+background-image: url(../images/gradient.png)
+}
+.header {
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+}
+.header img {
+	float: left;
+	padding-bottom: 30px;
+}
+.header .managers {
+	width: 120px;
+	height: 50px;
+	padding-top: 30px;
+	float: left;
+}
+.header .managers span{
+	font: 21px Myriad Pro;
+	color: #939597;
+}
+.header_part {
+	padding: 30px 0;
+}
+h1 {
+	font: 15px Myriad Pro;
+	color: #646464;
+	float: right;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 70px;
+}
+.forms{
+	width: 158px;
+	height: 36px;
+	background-color: white;
+	border-radius: 20px;
+	float: right;
+	margin-top: -10px;
+}
+.forms li {
+	list-style-type: none;
+	display: inline;
+	font: 11px Arial;
+	padding-left: 2px;
+	padding-top: 15px;
+	float: right;
+}
+.forms li a{
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+	padding-right: 2px;
+	color: #737373;
+}
+.forms li a.active {
+	padding-right: 30px;
+}
+.forms li a.active,
+.forms li a:hover {
+	color: #45B7FA;
+}
+.nav {
+	overflow: hidden;
+	float: right;
+	margin-right: 50px;
+	padding: 15px 0;
+	border-radius: 20px 20px 0 0;
+}
+.nav li {
+	display: inline;
+	background-color: #6B6765;
+	padding: 15px 30px;
+	margin-right: 1px;
+}
+.nav li a{
+	text-decoration: none;
+	font: 16px Arial;
+	color: #939597;
+}
+.nav li a.active,
+.nav li a:hover {
+	color: #45B7FA;
+}
+.sidebar_left {
+	overflow: hidden;
+	float: left;
+	width: 200px;
+	margin-right: 50px;
+}
+.sidebar_left h3 {
+	font: 20px Arial;
+	color: #03A7FD;
+	padding-top: 20px;
+}
+.sidebar_left ul{
+	padding: 20px 0;
+}
+.sidebar_left .category-list li {
+	border-bottom: 1px solid gray;
+}
+.sidebar_left .category-list li a{
+	text-decoration: none;
+	font: 14px Arial;
+	color: #545454;
+	line-height: 30px;
+}
+.sidebar_left .category-list .last_category {
+	border-bottom: none;
+	padding-bottom: 30px;
+}
+.fa-arrow-right {
+	color: #03A7FD;
+	padding-right: 10px;
+}
+.sidebar_left .company_icons {
+	padding-left: 30px;
+}
+.sidebar_left .company_icons li{
+	padding-bottom: 20px;
+}
+.sidebar_left .rss {
+	 border-bottom: 1px solid gray;
+	 border-top: 1px solid gray;
+	 padding: 10px 20px;
+}
+.sidebar_left .rss span {
+	font: 21 px Myriad Pro;
+	color: #939597;
+}
+.content {
+	overflow: hidden;
+	padding-top: 55px;
+	width: 700px;
+}
+.content h2 {
+	font: 26px Arial;
+	color: #000000;
+	border-bottom: 1px solid #03A7FD;
+	padding-top: 6px;
+}
+.content .image_kyosho {
+	float: left;
+	padding-top: 20px;
+	padding-left: 15px;
+	/* padding-bottom: 200px; */
+}
+.kyosho_inc span {
+	padding-left: 30px;
+}
+.first_company,
+.second_company,
+.third_company {
+	float: right;
+	width: 450px;
+	padding-top: 20px;
+	padding-right: 105px;
+	padding-bottom: 0px;	
+}
+.kyosho_inc {
+	font: 22px Arial;
+	color: #03A7FD;
+	padding-top: 20px;
+}
+.first_company li,
+.second_company li,
+.third_company li {
+	display: block;
+	width: 45%;
+	font: 12px Arial;
+	color: #505050;
+	background-color: #DFE5E6;
+	margin-bottom: 1px;
+	padding: 5px;
+	float: left;
+}
+.first_company a,
+.second_company a,
+.third_company a {
+	text-decoration: none;
+	color: #03A7FD;
+}
+.contacts {
+	float: right;
+	width: 450px;
+	padding-top: 0px;
+	padding-right: 105px;
+	padding-bottom: 50px; 
+}
+.contacts li {
+	margin-bottom: 0;
+	height: 15px;
+	display: block;
+	width: 45%;
+	font: 12px Arial;
+	color: #505050;
+	background-color: #DFE5E6;
+	padding: 5px;
+	float: left;
+}
+.contacts .phone {
+	background-color: #EDF0F1;
+}
+.contacts .e-mail {
+	background-color: #EDF0F1;
+}
+.content .kyosho {
+	padding-bottom: 270px;
+	border-bottom: 1px solid #03A7FD;
+}
+.footer {
+	margin-top: 150px;
+	border-top: 1px solid #B5B6B7;
+	margin-bottom: 50px;
+}
+.copyright ul {
+	background-color: #D9DADA;
+	width:500px;
+	height: 30px;
+	float: right;
+	margin-right: 20px;
+	line-height: 25px;
+	padding: 0 10px;
+	border-radius: 0 0 15px 15px;
+}
+.copyright span {
+	color: black;
+}
+.copyright li {
+	display: inline;
+	font: 10px Arial;
+	color: #77797B;
+}
+.copyright li img {
+	float: right;
+	padding-top: 5px;
+}
