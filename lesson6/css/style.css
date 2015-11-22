@@ -1,25 +1,26 @@
+body {
+	width: 100%;
+	background: linear-gradient(to bottom, #CED7D9 3%, #E5EAEB 10%, #EAEEEF 15%, #FFFFFF 30%);
+}
 .wrapper {
 	margin: 0 auto;
 	width: 960px;
 }
-body{
-background-image: url(../images/gradient.png)
-}
 .header {
     overflow: hidden;
-    border-bottom: 1px solid gray;
 }
 .header img {
 	float: left;
 	padding-bottom: 30px;
 }
-.header .managers {
+.logo {
+	float: left;
+	width: 300px;
+}
+.logo span {
 	width: 120px;
-	height: 50px;
 	padding-top: 30px;
 	float: left;
-}
-.header .managers span{
 	font: 21px Myriad Pro;
 	color: #939597;
 }
@@ -30,61 +31,67 @@ h1 {
 	font: 15px Myriad Pro;
 	color: #646464;
 	float: right;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-right: 70px;
+	padding: 30px 70px 30px 0;
 }
 .forms{
-	width: 158px;
-	height: 36px;
+	width: 160px;
 	background-color: white;
 	border-radius: 20px;
 	float: right;
-	margin-top: -10px;
+	text-align: center;
+	margin-top: -5px;
+	padding: 5px;
 }
 .forms li {
-	list-style-type: none;
-	display: inline;
-	font: 11px Arial;
-	padding-left: 2px;
-	padding-top: 15px;
-	float: right;
+	display: inline-block;
 }
 .forms li a{
-	list-style-type: none;
-	display: inline;
 	text-decoration: none;
-	padding-right: 2px;
+	font: 11px Arial;
 	color: #737373;
+	line-height: 25px;
 }
-.forms li a.active {
-	padding-right: 30px;
+.forms span {
+	padding-right: 5px;
+	border-right: 1px solid #737373;
 }
 .forms li a.active,
 .forms li a:hover {
 	color: #45B7FA;
 }
 .nav {
-	overflow: hidden;
+	border-bottom: 1px solid gray;
+	padding-bottom: 128px;
+}
+.nav ul {
 	float: right;
-	margin-right: 50px;
-	padding: 15px 0;
-	border-radius: 20px 20px 0 0;
+	width: 450px;
 }
-.nav li {
-	display: inline;
+.nav .active {
+	background: #E5EAEB;
+	padding-bottom: 16px;
+	border-radius: 20px 0 0 0;
+}
+.nav ul li:last-child {
+	border-radius: 0 20px 0 0;
+}
+.nav ul li {
+	border: 1px solid #939598;
+    border-bottom: none;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    float: left;
 	background-color: #6B6765;
-	padding: 15px 30px;
-	margin-right: 1px;
 }
-.nav li a{
+.nav a {
 	text-decoration: none;
-	font: 16px Arial;
 	color: #939597;
+	font: 16px Arial;
 }
-.nav li a.active,
-.nav li a:hover {
-	color: #45B7FA;
+.nav .active a {
+	color: #03A7FD;
+	border-radius: 20px 0 0 0;
 }
 .sidebar_left {
 	overflow: hidden;
@@ -100,8 +107,14 @@ h1 {
 .sidebar_left ul{
 	padding: 20px 0;
 }
+.sidebar_left .category-list ul {
+	list-style-image: url(../images/arrow.png);
+	list-style-position: inside;
+}
 .sidebar_left .category-list li {
 	border-bottom: 1px solid gray;
+	list-style-image: url(../images/arrow.png);
+	list-style-position: inside;
 }
 .sidebar_left .category-list li a{
 	text-decoration: none;
@@ -126,96 +139,84 @@ h1 {
 .sidebar_left .rss {
 	 border-bottom: 1px solid gray;
 	 border-top: 1px solid gray;
-	 padding: 10px 20px;
+	 padding: 20px 20px;
+	 text-align: center;
 }
 .sidebar_left .rss span {
-	font: 21 px Myriad Pro;
-	color: #939597;
+	padding: 5px 30px;
+	font: 21px Myriad Pro;
+	border: 2px solid #FFA018;
+	border-radius: 18px;
+}
+.sidebar_left .rss a {
+	color: #FFA018;
+	text-decoration: none;
 }
 .content {
 	overflow: hidden;
-	padding-top: 55px;
 	width: 700px;
+	padding-top: 55px;
 }
 .content h2 {
-	font: 26px Arial;
+	font: 25px Arial;
 	color: #000000;
-	border-bottom: 1px solid #03A7FD;
-	padding-top: 6px;
+	margin-bottom: 10px;
 }
-.content .image_kyosho {
+.data {
+	margin-bottom: 14px;
+	border-top: 1px solid #03A7FD;
+}
+.logo_kyosho {
+	padding: 20px 20px 0 10px;
 	float: left;
-	padding-top: 20px;
-	padding-left: 15px;
-	/* padding-bottom: 200px; */
 }
-.kyosho_inc span {
-	padding-left: 30px;
+.company_info {
+	overflow: hidden;
 }
-.first_company,
-.second_company,
-.third_company {
-	float: right;
-	width: 450px;
-	padding-top: 20px;
-	padding-right: 105px;
-	padding-bottom: 0px;	
-}
-.kyosho_inc {
+.company_info h3 {
 	font: 22px Arial;
 	color: #03A7FD;
 	padding-top: 20px;
 }
-.first_company li,
-.second_company li,
-.third_company li {
-	display: block;
-	width: 45%;
+.company_info dl {
+	width: 100%;
+}
+.company_info dt {
+	float: left;
+	background-color: #DFE5E6;
+	padding: 6px 10px;
+	margin-top: 3px;
 	font: 12px Arial;
 	color: #505050;
+	width: 46.47%;
+}
+.company_info dd {
+	float: right;
+	position: relative;
+	width: 46.49%;
 	background-color: #DFE5E6;
-	margin-bottom: 1px;
-	padding: 5px;
+	margin-top: 3px;
+	font: 12px Arial;
+	color: #505050;
+	padding: 6px 10px;
+}
+.company_info .contacts,
+.company_info .contacts_gray{
+	width: 100%;
+	margin-top: 0;
+	padding-left: 295px;
 	float: left;
 }
-.first_company a,
-.second_company a,
-.third_company a {
+.company_info .contacts_gray{
+	background-color: #F0F0F0;
+}
+.company_info dd a {
 	text-decoration: none;
 	color: #03A7FD;
-}
-.contacts {
-	float: right;
-	width: 450px;
-	padding-top: 0px;
-	padding-right: 105px;
-	padding-bottom: 50px; 
-}
-.contacts li {
-	margin-bottom: 0;
-	height: 15px;
-	display: block;
-	width: 45%;
-	font: 12px Arial;
-	color: #505050;
-	background-color: #DFE5E6;
-	padding: 5px;
-	float: left;
-}
-.contacts .phone {
-	background-color: #EDF0F1;
-}
-.contacts .e-mail {
-	background-color: #EDF0F1;
-}
-.content .kyosho {
-	padding-bottom: 270px;
-	border-bottom: 1px solid #03A7FD;
-}
+} 
 .footer {
 	margin-top: 150px;
 	border-top: 1px solid #B5B6B7;
-	margin-bottom: 50px;
 }
 .copyright ul {
 	background-color: #D9DADA;
@@ -226,8 +227,10 @@ h1 {
 	line-height: 25px;
 	padding: 0 10px;
 	border-radius: 0 0 15px 15px;
+	margin-bottom: 30px;
 }
-.copyright span {
+.copyright a {
+	text-decoration: none;
 	color: black;
 }
 .copyright li {
