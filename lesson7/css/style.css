@@ -1,0 +1,342 @@
+.wrapper {
+	overflow: hidden;
+	width: 1256px;
+	margin: 0 auto;
+}
+header {
+	overflow: hidden;
+	background-color: #edeff1;
+	width: 100%;
+	font-family: RobotoSlab;
+}
+h1, h2, h3 {
+	font-family: RobotoSlab;
+}
+p, a {
+	font-family: Roboto;
+}
+.logo {
+	width: 160px;
+	float: left;
+	overflow: hidden;
+	margin-top: 36px;
+}
+.logo a {
+	font-family: RobotoSlab;
+	text-decoration: none;
+	color: #31353e;
+	font-size: 36px;
+	font-weight: 700;
+}
+.logo span {
+	display: block;
+	font-family: RobotoSlab;
+	color: #dd4b2b;
+	font-size: 16px;
+	font-weight: 400;
+}
+header h1{
+	color: #31353e;
+	font-size: 36px;
+	font-weight: 700;
+}
+header span {
+	color: #dd4b2b;
+	font-size: 16px;
+	font-weight: 400;
+}
+nav {
+	padding: 60px 0;
+	float: right;
+}
+nav li{
+	display: inline-block;
+}
+nav li a {
+	text-decoration: none;
+	font-family: RobotoSlab;
+	font-size: 18px;
+	font-weight: 400;
+	color: #31353e;
+	padding: 14px 22px;
+}
+nav .active a {
+	color: #edeff1;
+	border-radius: 25px;
+	background-color: #dd4b2b;
+}
+nav li a:hover {
+	color: #edeff1;
+	width: 144px;
+	border-radius: 25px;
+	background-color: #dd4b2b;
+}
+.main {
+	overflow: hidden;
+	background: url(../images/main-background.png) center no-repeat;
+	text-align: center;
+	background-size: cover;
+}
+.main .heading {
+	padding-top: 400px;
+	padding-bottom: 120px;
+}
+.main .heading h1 {
+	color: white;
+	font-size: 72px;
+	font-weight: 300;
+}
+.main .heading span {
+	font-family: RobotoSlab;
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+}
+.main .posts {
+	overflow: hidden;
+}
+.main article {
+	display: block;
+	float: left;
+	width: 300px;
+	padding: 0 40px;
+	margin-left: 30px;
+}
+.main img {
+	margin: 0 auto;
+}
+.main article h2 {
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+.main article p {
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: center;
+}
+.main .button {
+	margin: 60px auto 120px;
+}
+.main a{
+	text-decoration: none;
+	background-color: white;
+	border-radius: 27px;
+	color: #612316;
+	font-size: 18px;
+	font-weight: 400;	
+	text-align: center;
+	padding: 16px 30px;
+}
+.news {
+	overflow: hidden;
+	background-color: #edeff1;
+	text-align: center;
+}
+.news .wrapper h2{
+	color: #31353e;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 60px;
+}
+.news article {
+	margin: 0 auto 80px;
+	margin-left: 30px;
+	width: 30%;
+	float: left;
+	padding-top: 40px;
+}
+.news article h3{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	padding-top: 14px;
+	color: #31353e;
+}
+.news article p {
+	color: #31353e;
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
+.news a {
+	text-decoration: none;
+	background-color: white;
+	border-radius: 27px;
+	color: #4e5159;
+	font-size: 15px;
+	font-weight: 300;	
+	padding: 16px 30px;
+}
+.newsletter {
+	background: url(../images/newsletter.png) center no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 90px 0;
+}
+.newsletter .newsletter_text {
+	overflow: hidden;
+	width: 533px;
+	margin: 0 auto;
+}
+.newsletter .wrapper h2{
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+.newsletter .wrapper p {
+	margin: 0 auto;
+	padding: 20px 0 40px 0;
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 24px;
+}
+.newsletter form {
+	width: 508px;
+	margin: 0 auto;
+}
+.newsletter form input[type="email"] {
+	padding: 10px 80px 10px 10px;
+	border-radius: 27px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	float: left;
+	margin-left: 50px;
+}
+.newsletter form input[placeholder] {
+	font-family: RobotoSlab;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+} 
+::-webkit-input-placeholder {
+	color: #f3f4f6;
+}
+:-moz-placeholder {
+	color: #f3f4f6;
+}
+::-moz-placeholder {
+	color: #f3f4f6;
+}
+:-ms-input-placeholder {
+	color: #f3f4f6;
+}
+button {
+	color: #612316;
+	font-family: RobotoSlab;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	padding: 10px 70px;
+	border-radius: 27px;
+	border: 1px solid white;
+	background-color: white;
+	position: relative;
+	margin-left: -150px;
+}
+.info {
+	background-color: white;
+}
+.info .wrapper article {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.info .wrapper .content1 {
+	overflow: hidden;
+	width: 50%;
+	float: left;
+	margin-top: 50px;
+}
+.info .wrapper .content1 h2,
+.info .wrapper .content2 h2{
+	color: #191b29;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+}
+.info .wrapper .content1 p,
+.info .wrapper .content2 p {
+	color: #191b29;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.info .wrapper .button1 a,
+.info .wrapper .button2 a {
+	text-decoration: none;
+	background-color: #dd4b2b;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+	color: white;
+	font-family: RobotoSlab;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	padding: 10px 30px;
+}
+.info .wrapper .content1_image{
+	overflow: hidden;
+	float: right;
+}
+.info .wrapper .content2 {
+	overflow: hidden;
+	width: 50%;
+	float: right;
+	margin-top: 80px;
+}
+.info .wrapper .content2_image {
+	float: left;
+}
+.info .wrapper .button2 a {
+	background-color: #4b4e73;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	margin-left: 20px;
+}
+.list {
+	overflow: hidden;
+	background-color: #d75d0e;
+	padding: 60px 0 60px;
+	text-align: center;
+}
+.list .wrapper ul {
+	float: left;
+	width: 142px;
+	color: white;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+	margin: 0 130px;
+}
+footer {
+	background: url(../images/newsletter.png) center no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 90px 0;
+}
+footer .wrapper p {
+	color: white;
+	font-family: ProximaNova;
+	font-size: 18px;
+	line-height: 24px;
+}
+footer .wrapper a {
+	text-decoration: none;
+	color: white;
+	font-family: ProximaNova;
+	font-size: 18px;
+	font-weight: 700;
+}
