@@ -2,11 +2,22 @@
 
 body {
 	font-family: 'open_sanslight';
+	line-height: 20px;
+	font-weight: 700;
 }
 .wrapper {
-	overflow: hidden;
 	width: 1170px;
 	margin: 0 auto;
+}
+.wrapper,
+.top,
+.top header nav,
+.about-us article,
+.services,
+footer,
+.contact-us article,
+.contact-us .form {
+	overflow: hidden;
 }
 h1, h2, h3 {
 	text-transform: uppercase;
@@ -19,8 +30,13 @@ a, button {
 	font-family: 'open_sansbold';
 	color: white;
 }
+.top header a,
+.services .services-details a,
+.contact-us h3,
+footer a {
+	text-transform: none;
+}
 .top {
-	overflow: hidden;
 	background: url(../images/main-background.jpg) center no-repeat;
 	background-size: cover;
 	padding-top: 20px;
@@ -35,8 +51,6 @@ a, button {
 	float: left;
 	color: #39c9da;
 	font-size: 30px;
-	font-weight: 700;
-	text-transform: none;
 }
 .top header span {
 	color: white;
@@ -45,8 +59,6 @@ a, button {
 	font-weight: 400;
 }
 .top header nav {
-	overflow: hidden;
-	color: white;
 	text-align: right;
 	padding-top: 26px;
 }
@@ -56,8 +68,7 @@ a, button {
 .top header nav a {
 	color: white;
 	font-size: 15px;
-	font-weight: 700;
-	padding-right: 8px;
+	padding-right: 30px;
 	text-transform: uppercase;
 }
 .top header nav a:hover {
@@ -69,12 +80,9 @@ a, button {
 	text-align: center;
 	color: white;
 	font-size: 33px;
-	font-weight: 700;
 	line-height: 45px;
 }
-.top .heading a,
-.about-us .content a,
-.contact-us .form button {
+.btn {
 	display: block;
 	width: 140px;
 	margin: 0 auto;
@@ -86,7 +94,6 @@ a, button {
 	text-align: center;
 	padding: 6px 12px;
 	font-size: 20px;
-	font-weight: 700;
 	line-height: 45px;
 }
 .top .heading a:hover,
@@ -107,7 +114,6 @@ a, button {
 .portfolio .heading,
 .services .heading,
 .contact-us .heading {
-	margin: 0 auto;
 	text-align: center;
 }
 .about-us .heading h1,
@@ -115,20 +121,17 @@ a, button {
 .services .heading h1,
 .contact-us .heading h1 {
 	font-size: 20px;
-	font-weight: 700;
 	line-height: 45px;
 }
-.about-us .heading span,
-.portfolio .heading span,
-.services .heading span,
-.contact-us .heading span {
-	display: block;
+.about-us .heading p,
+.portfolio .heading p,
+.services .heading p,
+.contact-us .heading p {
 	width: 486px;
 	color: #a8a8a8;
 	margin: 0 auto;
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 20px;
 }
 .about-us .content,
 .portfolio .content,
@@ -141,15 +144,10 @@ a, button {
 	float: left;
 	padding: 50px 24px 0 0;
 }
-.about-us article {
-	overflow: hidden;
-}
 .about-us article h2,
 .contact-us article h2 {
 	position: relative;
 	font-size: 14px;
-	font-weight: 700;
-	line-height: 20px;
 	padding-bottom: 10px;
 }
 .about-us article h2:before {
@@ -163,10 +161,9 @@ a, button {
 	padding-top: 24px;
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 20px;
 	color: #a8a8a8;
 }
-.about-us .content a {
+.about-us .content article a {
 	float: left;
 	margin-top: 18px;
 }
@@ -218,7 +215,6 @@ a, button {
 .portfolio .caption h2 {
 	display: inline-block;
     padding: 16px;
-    font-weight: 700;
 }
 .portfolio .caption span {
 	float: right;
@@ -227,13 +223,12 @@ a, button {
     padding: 16px;
 	font-style: italic;
 	font-size: 12px;
+	font-weight: 400;
 }
 .services {
-	overflow: hidden;
 	background-color: #fafafa;
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 20px;
 }
 .services .services-details {
 	margin: 30px 0;
@@ -280,7 +275,6 @@ a, button {
 	border-radius: 2px;
 	color: white;
 	padding: 6px 12px;
-	text-transform: none;
 }
 .services .services-details div:hover {
 	background-color: #39c9da;
@@ -294,7 +288,6 @@ a, button {
 	color: white;
 }
 .contact-us article {
-	overflow: hidden;
 	width: 50%;
 	float: left;
 	padding-right: 30px;
@@ -312,21 +305,19 @@ a, button {
 	color: #a8a8a8;
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 20px;
 }
-.contact-us h3 {
-	text-transform: none;
+.contact-us .address {
+	padding-top: 20px;
 }
-.contact-us .address p {
-	width: 132px;
+.contact-us .address li {
+	font-size: 14px;
+	color: #a8a8a8;
+	font-weight: 400;
 }
 .contact-us .form button {
 	float: right;
 	margin-top: 0;
 	margin-right: 58px;
-}
-.contact-us .form {
-	overflow: hidden;
 }
 .contact-us .form input,
 .contact-us .form textarea {
@@ -367,14 +358,12 @@ a, button {
 	font-size: 14px;
 }
 footer {
-	overflow: hidden;
 	background-color: #39c9da;
-	font-family: 'open_sanslight';
 	color: white;
 	text-align: center;
 	padding: 20px 0;
+	font-weight: 400;
 }
 footer a {
 	font-family: 'open_sanslight';
-	text-transform: none;
 }
