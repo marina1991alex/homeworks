@@ -1,3 +1,12 @@
+@import url(../font/stylesheet.css);
+
+html {
+	font-size: 62.5%;
+}
+.body {
+	font-family: 'roboto_slablight';
+	font-weight: 700;
+}
 .wrapper {
 	overflow: hidden;
 	width: 1256px;
@@ -7,13 +16,12 @@ header {
 	overflow: hidden;
 	background-color: #edeff1;
 	width: 100%;
-	font-family: RobotoSlab;
 }
 h1, h2, h3 {
-	font-family: RobotoSlab;
+	font-family: 'roboto_slabbold';
 }
 p, a {
-	font-family: Roboto;
+	font-family: 'robotolight';
 }
 .logo {
 	width: 160px;
@@ -22,30 +30,27 @@ p, a {
 	margin-top: 36px;
 }
 .logo a {
-	font-family: RobotoSlab;
+	font-family: 'roboto_slabbold';
 	text-decoration: none;
 	color: #31353e;
-	font-size: 36px;
-	font-weight: 700;
+	font-size: 3.6rem;
 }
 .logo span {
 	display: block;
-	font-family: RobotoSlab;
 	color: #dd4b2b;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
 }
 header h1{
 	color: #31353e;
-	font-size: 36px;
-	font-weight: 700;
+	font-size: 3.6rem;
 }
 header span {
 	color: #dd4b2b;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
 }
-nav {
+header nav {
 	padding: 60px 0;
 	float: right;
 }
@@ -54,8 +59,7 @@ nav li{
 }
 nav li a {
 	text-decoration: none;
-	font-family: RobotoSlab;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
 	color: #31353e;
 	padding: 14px 22px;
@@ -76,39 +80,36 @@ nav li a:hover {
 	background: url(../images/main-background.png) center no-repeat;
 	text-align: center;
 	background-size: cover;
-}
-.main .heading {
-	padding-top: 400px;
-	padding-bottom: 120px;
+	padding-top: 404px;
 }
 .main .heading h1 {
+	font-family: 'roboto_slablight';
 	color: white;
-	font-size: 72px;
+	font-size: 7.2rem;
 	font-weight: 300;
 }
 .main .heading span {
-	font-family: RobotoSlab;
 	color: white;
 	font-size: 30px;
-	font-weight: 700;
 }
 .main .posts {
 	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 100px;
 }
 .main article {
 	display: block;
 	float: left;
 	width: 300px;
-	padding: 0 40px;
-	margin-left: 30px;
+	padding: 0 30px;
 }
 .main img {
 	margin: 0 auto;
 }
 .main article h2 {
 	color: white;
-	font-size: 30px;
-	font-weight: 700;
+	font-size: 3rem;
 	line-height: 24px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -116,7 +117,7 @@ nav li a:hover {
 }
 .main article p {
 	color: white;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
 	line-height: 30px;
 	text-align: center;
@@ -129,7 +130,7 @@ nav li a:hover {
 	background-color: white;
 	border-radius: 27px;
 	color: #612316;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;	
 	text-align: center;
 	padding: 16px 30px;
@@ -139,24 +140,23 @@ nav li a:hover {
 	background-color: #edeff1;
 	text-align: center;
 }
+.news img {
+	max-width: 100%;
+}
 .news .wrapper h2{
 	color: #31353e;
-	font-size: 30px;
-	font-weight: 700;
+	font-size: 3rem;
 	text-align: center;
 	padding-top: 60px;
 }
 .news article {
-	margin: 0 auto 80px;
-	margin-left: 30px;
+	padding: 30px 20px 64px;
 	width: 30%;
 	float: left;
-	padding-top: 40px;
 }
 .news article h3{
 	text-align: center;
-	font-size: 24px;
-	font-weight: 700;
+	font-size: 2.4rem;
 	padding-top: 14px;
 	color: #31353e;
 }
@@ -165,7 +165,7 @@ nav li a:hover {
 	width: 300px;
 	margin: 0 auto;
 	margin-bottom: 40px;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
 	line-height: 30px;
 }
@@ -191,15 +191,14 @@ nav li a:hover {
 }
 .newsletter .wrapper h2{
 	color: white;
-	font-size: 30px;
-	font-weight: 700;
+	font-size: 3rem;
 	text-align: center;
 }
 .newsletter .wrapper p {
 	margin: 0 auto;
 	padding: 20px 0 40px 0;
 	color: white;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
 	line-height: 24px;
 }
@@ -216,8 +215,7 @@ nav li a:hover {
 	margin-left: 50px;
 }
 .newsletter form input[placeholder] {
-	font-family: RobotoSlab;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
 	line-height: 30px;
 } 
@@ -235,8 +233,7 @@ nav li a:hover {
 }
 button {
 	color: #612316;
-	font-family: RobotoSlab;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
 	line-height: 30px;
 	padding: 10px 70px;
@@ -248,6 +245,9 @@ button {
 }
 .info {
 	background-color: white;
+}
+.info img {
+	max-width: 100%;
 }
 .info .wrapper article {
 	margin-top: 50px;
@@ -263,13 +263,12 @@ button {
 .info .wrapper .content2 h2{
 	color: #191b29;
 	font-size: 30px;
-	font-weight: 700;
 	line-height: 48px;
 }
 .info .wrapper .content1 p,
 .info .wrapper .content2 p {
 	color: #191b29;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 300;
 	line-height: 30px;
 	margin-bottom: 30px;
@@ -281,8 +280,7 @@ button {
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	border-radius: 27px;
 	color: white;
-	font-family: RobotoSlab;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
 	line-height: 30px;
 	padding: 10px 30px;
@@ -315,28 +313,28 @@ button {
 	float: left;
 	width: 142px;
 	color: white;
-	font-family: Roboto;
-	font-size: 18px;
+	font-family: 'robotolight';
+	font-size: 1.8rem;
 	font-weight: 400;
 	line-height: 36px;
 	margin: 0 130px;
 }
 footer {
 	background: url(../images/newsletter.png) center no-repeat;
+	font-family: 'proxima_nova_condensedlight';
+	font-size: 1.8rem;
 	background-size: cover;
 	text-align: center;
 	padding: 90px 0;
 }
 footer .wrapper p {
 	color: white;
-	font-family: ProximaNova;
-	font-size: 18px;
 	line-height: 24px;
+	font-weight: 300;
 }
 footer .wrapper a {
 	text-decoration: none;
 	color: white;
-	font-family: ProximaNova;
-	font-size: 18px;
 	font-weight: 700;
 }
+@import url(media.css);

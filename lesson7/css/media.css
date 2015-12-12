@@ -1,0 +1,210 @@
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	html {
+		font-size: 50%;
+	}
+	.newsletter button {
+		padding: 10px 56px;
+	}
+	.main .wrapper {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+@media screen and (max-width: 480px) {
+	html {
+		font-size: 50%;
+	}
+	.main {
+		padding: 0;
+	}
+	.main .wrapper {
+		padding: 50px 0;
+		width: 100%;
+	}
+	.main .heading h1 {
+		font-size: 4rem;
+		line-height: 3.5rem;
+		padding-bottom: 8px;
+	} 
+	.news article {
+		float: none;
+		width: 100%;
+		padding: 0 10px;
+		box-sizing: border-box;
+		margin: 30px 0;
+	}
+}
+@media screen and (max-width: 767px) {
+	header nav {
+		display: none;
+	}
+	header .logo {
+		margin: 20px;
+		float: none;
+	}	
+	.main .heading h1 {
+		font-size: 4rem;
+		line-height: 3.5rem;
+		padding-bottom: 8px;
+	}
+	.main .heading span {
+		font-size: 2.5rem;
+	}
+	.main .posts {
+		padding-top: 56px;
+	}
+	.main .posts article {
+		width: 100%;
+		float: none;
+		padding: 0;
+	}
+	.main .button {
+		margin-bottom: 38px;
+	}
+	.newsletter .newsletter_text	{
+		width: 100%;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	.newsletter form	{
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.newsletter form input[type="email"]  {
+		margin: 0;
+	}
+	.newsletter button {
+		padding: 10px 56px;
+	}
+	.info .wrapper article {
+		margin-bottom: 20px;
+	}
+	.info .wrapper  article {
+		width: 100%;
+		float: none;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	.info .wrapper .content1,
+	.info .wrapper .content2 {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.info .wrapper .button2 a {
+		margin: 0;
+	}
+	.list .wrapper ul {
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.newsletter form	{
+		width: 76%;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	html {
+		font-size: 60%;
+	}
+	.main .wrapper {
+		padding: 68px 0;
+	}
+	header nav {
+		display: none;
+	}
+	header .logo {
+		margin: 20px;
+		float: none;
+	}	
+	.main {
+		padding: 0;
+	}
+	.main .heading h1 {
+		font-size: 6rem;
+		line-height: 3.5rem;
+		padding-bottom: 24px;
+	}
+	.news article p {
+		width: 96%;
+	}
+	.info .wrapper .content1 p,
+	.info .wrapper .content2 p {
+		line-height: 24px;
+		margin-bottom: 6px;
+	}
+	.list .wrapper ul {
+		width: 30%;
+		float: left;
+		margin: 0;
+		margin-left: 20px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1255px) {
+	.main .posts {
+		width: 90%;
+	}
+	.main article {
+		width: 30%;
+		float: left;
+		padding: 0;
+		margin-left: 20px;
+	}	
+	.main .button {
+		margin-bottom: 38px;
+	}
+	.news article {
+		width: 30%;
+		float: left;
+		padding: 0 10px;
+		margin: 20px 0 36px 4px;
+	}
+	.info .wrapper  article {
+		width: 100%;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	.info .wrapper .content1,
+	.info .wrapper .content2 {
+		width: 52%;
+		margin: 0 0 28px 0;
+	}
+	.info .wrapper .content1_image,
+	.info .wrapper .content2_image {
+		width: 48%;
+	}
+	.info .wrapper .button2 a {
+		margin-left: 0;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1255px) {
+	header .logo {
+		padding-left: 14px;
+	}
+	header nav {
+		padding-right: 14px;
+	}
+	.main {
+		padding: 0px;
+	}
+	.main .wrapper {
+		padding: 82px 0;
+	}
+	.news article {
+		margin-left: 10px;
+	}
+	.list .wrapper ul {
+		width: 30%;
+		float: left;
+		margin: 0;
+		margin-left: 20px;
+	}
+}
+@media screen and (max-width: 1255px) {
+	.wrapper {
+		width: 100%;
+	}
+}
