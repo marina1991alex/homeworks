@@ -261,20 +261,22 @@ footer a {
 	color: white;
 }
 .services .services-details h2 {
-	position: relative;
+	position: absolute;
+	width: 16%;
 	font-size: 2rem;
 }
 .services .services-details h2:after {
+	display: block;
 	content:"";
-	position: absolute;
+	position: relative;
 	width: 74px;
 	border-bottom: 1px solid #c2c2c2;
-	top: 34px;
-	right: 72px;
+	top: 12px;
+	margin: 0 auto;
 }
 .services .services-details p {
 	width: 227px;
-	margin: 34px 0;
+	margin: 48px 0;
 }
 .services .services-details a {
 	font-family: 'open_sanslight';

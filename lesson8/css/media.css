@@ -54,6 +54,15 @@
 		margin-bottom: 20px;
 		padding: 0;
 	}
+	.portfolio .content figure img {
+		width: 100%;
+	}
+	.services .services-details h2 {
+		width: 72%;
+	}
+	.services .services-details p {
+		margin: 54px auto;
+	}
 	.contact-us .form input,
 	.contact-us .form textarea {
 		width: 85%;
@@ -79,6 +88,9 @@
 		float: none;
 		margin: 0 auto;
 		margin-bottom: 20px;
+	}
+	.services .services-details div h2 {
+		width: 45%;
 	}
 	.services .services-details div p {
 		width: 100%;	
@@ -122,6 +134,9 @@
 		margin-bottom: 20px;
 		padding-right: 10px;
 	}
+	.portfolio .content figure img {
+		width: 100%;
+	}
 	.services .services-details {
 		width: 90%;
 		margin: 0 auto;
@@ -131,12 +146,17 @@
 		float: left;
 		margin: 0 auto 20px 6px;
 	}
-	.services .services-details p {
-		margin: 0 auto;
-		padding: 33px;
+	.services .services-details h2 {
+		width: 38%;
 	}
 	.services .services-details h2:after {
-		right: 108px;
+		top: 12px;
+		right: 0;
+		margin: 0 auto;
+	}
+	.services .services-details p {
+		margin: 0 auto;
+		padding: 54px 0;
 	}
 	.contact-us .form input,
 	.contact-us .form textarea {
