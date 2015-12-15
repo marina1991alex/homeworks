@@ -60,6 +60,9 @@
 	.main .button {
 		margin-bottom: 38px;
 	}
+	.news article {
+		width: 100%;
+	}
 	.newsletter .newsletter_text	{
 		width: 100%;
 		padding: 0 10px;
@@ -79,11 +82,15 @@
 	.info .wrapper article {
 		margin-bottom: 20px;
 	}
-	.info .wrapper  article {
+	.info .wrapper article {
 		width: 100%;
 		float: none;
 		padding: 0 10px;
 		box-sizing: border-box;
+	}
+	.info .wrapper .content1_image,
+	.info .wrapper .content2_image {
+		float: none;
 	}
 	.info .wrapper .content1,
 	.info .wrapper .content2 {
@@ -129,7 +136,7 @@
 		padding-bottom: 24px;
 	}
 	.news article p {
-		width: 96%;
+		width: 98%;
 	}
 	.info .wrapper .content1 p,
 	.info .wrapper .content2 p {
@@ -157,7 +164,7 @@
 		margin-bottom: 38px;
 	}
 	.news article {
-		width: 30%;
+		width: 29%;
 		float: left;
 		padding: 0 10px;
 		margin: 20px 0 36px 4px;
@@ -206,5 +213,11 @@
 @media screen and (max-width: 1255px) {
 	.wrapper {
 		width: 100%;
+	}
+	.news article p {
+		width: 98%;
+	}
+	.news article {
+		padding: 30px 14px 64px;
 	}
 }
