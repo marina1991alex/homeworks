@@ -1,5 +1,8 @@
 @import url(../font/stylesheet.css);
 
+html {
+	font-size: 62.5%;
+}
 body {
 	font-family: 'open_sanslight';
 	line-height: 20px;
@@ -50,12 +53,12 @@ footer a {
 	display: block;
 	float: left;
 	color: #39c9da;
-	font-size: 30px;
+	font-size: 3rem;
 }
 .top header span {
 	color: white;
 	font-family: 'robotolight';
-	font-size: 48px;
+	font-size: 4.8rem;
 	font-weight: 400;
 }
 .top header nav {
@@ -67,7 +70,7 @@ footer a {
 }
 .top header nav a {
 	color: white;
-	font-size: 15px;
+	font-size: 1.5rem;
 	padding-right: 30px;
 	text-transform: uppercase;
 }
@@ -79,7 +82,7 @@ footer a {
 	margin: 0 auto;
 	text-align: center;
 	color: white;
-	font-size: 33px;
+	font-size: 3.3rem;
 	line-height: 45px;
 }
 .btn {
@@ -93,7 +96,7 @@ footer a {
 	border-radius: 4px;
 	text-align: center;
 	padding: 6px 12px;
-	font-size: 20px;
+	font-size: 2rem;
 	line-height: 45px;
 }
 .top .heading a:hover,
@@ -120,7 +123,7 @@ footer a {
 .portfolio .heading h1,
 .services .heading h1,
 .contact-us .heading h1 {
-	font-size: 20px;
+	font-size: 2rem;
 	line-height: 45px;
 }
 .about-us .heading p,
@@ -130,7 +133,7 @@ footer a {
 	width: 486px;
 	color: #a8a8a8;
 	margin: 0 auto;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
 }
 .about-us .content,
@@ -141,13 +144,14 @@ footer a {
 	padding: 30px 0;
 }
 .about-us img {
+	max-width: 100%;
 	float: left;
 	padding: 50px 24px 0 0;
 }
 .about-us article h2,
 .contact-us article h2 {
 	position: relative;
-	font-size: 14px;
+	font-size: 1.4rem;
 	padding-bottom: 10px;
 }
 .about-us article h2:before {
@@ -159,7 +163,7 @@ footer a {
 }
 .about-us article p {
 	padding-top: 24px;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
 	color: #a8a8a8;
 }
@@ -177,6 +181,9 @@ footer a {
 }
 .portfolio .image {
 	position: relative;
+}
+.portfolio img {
+	max-width: 100%;
 }
 .portfolio .link {
 	position: absolute;
@@ -215,6 +222,7 @@ footer a {
 .portfolio .caption h2 {
 	display: inline-block;
     padding: 16px;
+	font-size: 1.4rem;
 }
 .portfolio .caption span {
 	float: right;
@@ -222,12 +230,12 @@ footer a {
     display: inline-block;
     padding: 16px;
 	font-style: italic;
-	font-size: 12px;
+	font-size: 1.2rem;
 	font-weight: 400;
 }
 .services {
 	background-color: #fafafa;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
 }
 .services .services-details {
@@ -245,7 +253,7 @@ footer a {
 .services .services-details .fa {
 	display: inline-block;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 3.4rem;
     padding: 16px;
     color: #39c9da;
 }
@@ -253,20 +261,22 @@ footer a {
 	color: white;
 }
 .services .services-details h2 {
-	position: relative;
-	font-size: 20px;
+	position: absolute;
+	width: 16%;
+	font-size: 2rem;
 }
 .services .services-details h2:after {
+	display: block;
 	content:"";
-	position: absolute;
+	position: relative;
 	width: 74px;
 	border-bottom: 1px solid #c2c2c2;
-	top: 34px;
-	right: 72px;
+	top: 12px;
+	margin: 0 auto;
 }
 .services .services-details p {
 	width: 227px;
-	margin: 34px 0;
+	margin: 48px 0;
 }
 .services .services-details a {
 	font-family: 'open_sanslight';
@@ -287,6 +297,9 @@ footer a {
 .services .services-details div:hover h2 {
 	color: white;
 }
+.contact-us {
+	font-size: 1.4rem;
+}
 .contact-us article {
 	width: 50%;
 	float: left;
@@ -303,14 +316,12 @@ footer a {
 .contact-us article p {
 	margin: 20px 0;
 	color: #a8a8a8;
-	font-size: 14px;
 	font-weight: 400;
 }
 .contact-us .address {
 	padding-top: 20px;
 }
 .contact-us .address li {
-	font-size: 14px;
 	color: #a8a8a8;
 	font-weight: 400;
 }
@@ -340,25 +351,26 @@ footer a {
 ::-webkit-input-placeholder {
 	color: #c9c9c9;
 	font-family: 'open_sanslight';
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 :-moz-placeholder {
 	color: #c9c9c9;
 	font-family: 'open_sanslight';
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 ::-moz-placeholder {
 	color: #c9c9c9;
 	font-family: 'open_sanslight';
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 :-ms-input-placeholder {
 	color: #c9c9c9;
 	font-family: 'open_sanslight';
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 footer {
 	background-color: #39c9da;
+	font-size: 1.4rem;
 	color: white;
 	text-align: center;
 	padding: 20px 0;
@@ -367,3 +379,4 @@ footer {
 footer a {
 	font-family: 'open_sanslight';
 }
+@import url(media.css);

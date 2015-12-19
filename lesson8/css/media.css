@@ -1,0 +1,266 @@
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	html {
+		font-size: 50%;
+	}
+	.services .services-details div {
+		width: 74%;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.about-us .heading p,
+	.about-us .content p,
+	.portfolio .heading p,
+	.services .heading p,
+	.contact-us .heading p,
+	.contact-us .content p,
+	.contact-us .content li {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.top {
+		padding: 0;
+	}
+	.top header nav {
+		display: none;
+	}
+	.top .heading {
+		margin-bottom: 20px;
+	}
+	.btn {
+		padding: 3px 6px;
+	}
+	.about-us .content article h2:before {
+		top: 50px;
+	}
+	.about-us .content img {
+		float: none;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.about-us article {
+		width: 100%;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	.portfolio .content {
+		width: 100%;
+	}
+	.portfolio .content figure {
+		float: none;
+		width: 72%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+	.portfolio .content figure img {
+		width: 100%;
+	}
+	.services .services-details h2 {
+		width: 72%;
+	}
+	.services .services-details p {
+		margin: 54px auto;
+	}
+	.contact-us .form input,
+	.contact-us .form textarea {
+		width: 85%;
+		margin: 0 10px;
+	}
+	.contact-us .form input {
+		font-size: 1.5rem;
+	}
+	::-webkit-input-placeholder {
+		font-size: 1.6rem;
+	}
+	.contact-us .form button {
+		margin-right: 10px;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.services .services-details {
+		width: 100%;
+		margin: 0;
+	}
+	.services .services-details div {
+		width: 46%;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.services .services-details div h2 {
+		width: 45%;
+	}
+	.services .services-details div p {
+		width: 100%;	
+	}
+	.contact-us .form input,
+	.contact-us .form textarea {
+		width: 90%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1255px) {
+	html {
+		font-size: 60%;
+	}
+	.top header nav a {
+		padding-right: 8px;
+	}
+	.top .heading {
+		margin-bottom: 20px;
+	}
+	.about-us .content article h2:before {
+		top: 36px;
+	}
+	.about-us .content img {
+		float: none;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.about-us article {
+		width: 100%;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	.portfolio .content {
+		width: 100%;
+		padding: 30px 0 10px;
+	}
+	.portfolio .content figure {
+		float: left;
+		width: 45.5%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		padding-right: 10px;
+	}
+	.portfolio .content figure img {
+		width: 100%;
+	}
+	.services .services-details {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.services .services-details div {
+		width: 43%;
+		float: left;
+		margin: 0 auto 20px 6px;
+	}
+	.services .services-details h2 {
+		width: 38%;
+	}
+	.services .services-details h2:after {
+		top: 12px;
+		right: 0;
+		margin: 0 auto;
+	}
+	.services .services-details p {
+		margin: 0 auto;
+		padding: 54px 0;
+	}
+	.contact-us .form input,
+	.contact-us .form textarea {
+		width: 91%;
+		margin: 0 20px;
+	}
+	.contact-us .form input {
+		font-size: 1.5rem;
+	}
+	::-webkit-input-placeholder {
+		font-size: 1.6rem;
+	}
+	.contact-us .form button {
+		margin-right: 20px;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1255px) {
+	html {
+		font-size: 72%;
+	}
+	.btn {
+		padding: 18px 12px;
+		line-height: 28px;
+	}
+	.about-us .content img {
+		width: 50%;
+		float: left;
+		padding-top: 72px;
+	}
+	.about-us .content article {
+		width: 50%
+	}
+	.about-us .content article a {
+		width: 35%;
+	}
+	.about-us .content article h2:before {
+		top: 54px;
+	}
+	.portfolio .content figure {
+		float: left;
+		width: 30%
+	}
+	.contact-us .form input,
+	.contact-us .form textarea {
+		width: 93%;
+	}
+}
+@media screen and (max-width: 1255px) {
+	.wrapper {
+		width: 100%;
+	}
+	.about-us .heading p,
+	.about-us .content p,
+	.portfolio .heading p,
+	.services .heading p,
+	.contact-us .heading p,
+	.contact-us .content p,
+	.contact-us .content li 
+	.portfolio .content .caption span,
+	.services .services-details p,
+	footer {
+		font-size: 1.6rem;
+	}
+	.top header {
+		margin-bottom: 90px;
+	}
+	.top header a {
+		margin: 20px 0 0 20px;
+	}
+	.top .heading h1 {
+		width: 80%;
+		font-size: 3rem;
+		line-height: 5.5rem;
+	}
+	.about-us {
+		padding: 10px;
+	}
+	.about-us .content article h2,
+	.portfolio .content .caption h2,
+	.contact-us .contact-info h2{
+		font-size: 1.8rem;
+	}
+	.services {
+		padding: 0;
+	}
+	.services .heading {
+		padding: 20px 0;
+	}
+	.contact-us .content {
+		padding: 0;
+	}
+	.contact-us .content article {
+		width: 100%;
+		float: none;
+		padding: 30px 20px;
+		box-sizing: border-box;
+	}
+	.contact-us .content h3 {
+		font-size: 1.7rem;
+	}
+	.contact-us .form li {
+		margin-bottom: 10px;
+	}
+	.contact-us .form .row {
+		width: 100%;
+	}
+}
