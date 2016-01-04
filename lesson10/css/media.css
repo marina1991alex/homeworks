@@ -1,0 +1,157 @@
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	.top h1 {
+		font-size: 6rem;
+	}
+	.top p {
+		line-height: 20px;
+		font-size: 1.8rem;
+	}
+	.top .download .button-medium {
+		padding: 12px 30px;
+		font-size: 1.6rem;
+	}
+	.contacts .arrow-right {
+		right: -26%;
+	}
+	.newsletter h1 {
+		line-height: 34px;
+	}
+}
+@media screen and (max-width: 767px) {
+	header nav,
+	header .menu {
+		padding: 0;
+	}
+	header nav {
+		margin-top: 10px;
+	}
+	header .button-small {
+		margin-left: 0;
+		padding: 10px 20px;
+	}
+	.editor h1 {
+		font-size: 3.3rem;
+	}
+	.editor p {
+		width: 100%;
+	}
+	.contacts .social ul li {
+		width: 70%;
+		display: block;
+		margin: 0 auto;
+	}
+	.contacts .social a {
+		padding: 12px 40px;
+		font-size: 1.5rem;
+	}
+	.companies {
+		padding-bottom: 20px;
+	}
+	.companies .container,
+	.subscription .container {
+		padding: 0;
+	}
+	.companies h1,
+	.subscription h1 {
+		line-height: 50px;
+	}
+	.companies .row {
+		padding-top: 50px;
+		margin: 0;
+	}
+	.companies div {
+		width: 100%;
+		float: none;
+		padding-bottom: 30px;
+	}
+	.subscription .pricing {
+		width: 80%;
+		float: none;
+		margin: 0 auto 40px;
+	}
+	.newsletter h1 {
+		text-align: center;
+		line-height: 30px;
+	}
+	.newsletter form input {
+		width: 90%;
+	}
+	.newsletter form a {
+		display: block;
+		width: 30%;
+		margin: 10px auto 0;
+	}
+}
+@media screen and (max-width: 979px) {
+	header nav ul {
+		display: none;
+	}
+	header .logo {
+		width: 60%;
+	}
+	header .menu {
+		width: 40%;
+	}
+	.articles article,
+	footer div {
+		padding-bottom: 30px;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.services {
+		padding: 70px 0;
+	}
+	.services .container,
+	.services .list {
+		width: 100%;
+	}
+	.services .icons {
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+	.services .description p {
+		font-size: 1.2rem;
+	}
+	.services .responsive-header {
+		display: block;
+		line-height: 36px;
+		text-align: center;
+	}
+	.services .example h2 {
+		display: none;
+	}
+	.services .example {
+		position: relative;
+	}
+	.services .example img {
+		position: inherit;
+		width: auto;
+		margin: 0;
+		top: 60px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 979px) {
+	.companies div:nth-child(5) {
+		clear: both;
+	}
+	.subscription .pricing {
+		width: 40%;
+		float: left;
+		margin: 0 auto 40px;
+	}
+	.contacts figure {
+		width: 30%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.contacts .social ul li {
+		width: 25%;
+		display: inline-block;
+		margin: 0 auto;
+		margin-right: 5px;
+	}
+	.contacts .social a {
+		padding: 12px 40px;
+		font-size: 1.5rem;
+	}
+}
