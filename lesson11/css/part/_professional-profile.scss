@@ -1,0 +1,111 @@
+.professional-profile,
+.internet-communication,
+.workflow,
+.blog {
+
+  .content {
+    margin-top: 8%;
+    background-color: #f3f3f3;
+  }
+}
+.professional-profile .social-nets ul li,
+.team .info .social-nets{
+
+  a {
+    width: 67px;
+    height: 67px;
+    background-color: #ffca26;
+    color: white;
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+}
+.professional-profile,
+.workflow {
+  h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 50px 0 30px;
+    text-align: left;
+  }
+}
+.professional-profile .content,
+.internet-communication .content {
+  h3, 
+  p {
+    color: #999;
+    text-align: left;
+    margin-top: 14px;
+  }
+}
+.professional-profile .content,
+.internet-communication .content {
+  p {
+    margin-bottom: 40px;
+  }
+}
+.professional-profile {
+  .social-nets {
+    position: relative;
+    ul {
+      position: absolute;
+      bottom: 0;
+      left: 30px;
+      li {
+        display: inline-block;
+      }
+    }
+  }
+  .photo-caption {
+    width: 428px;
+    font-size: 2.9rem;
+    line-height: 36px;
+    color: #333;
+    text-align: center;
+    margin: 40px auto 0;
+    span {
+      font-size: 3.7rem;
+      font-weight: 700;
+    }
+  }
+  .progress {
+    background-color: #999;
+    height: 12px;
+    overflow: hidden;
+    .progress-bar {
+      height: 12px;
+      background-color: #ffca26;
+    }
+  }
+  .statistics {
+    text-align: center;
+    margin-top: 60px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    .container {
+      border-left: 1px solid #ccc;
+    }
+    li {
+      border-right: 1px solid #cccccc;
+      i {
+        color: #ffcc33;
+        font-size: 7rem;
+        padding: 25% 0;
+      }
+      div {
+        font-size: 2.6rem;
+        font-weight: 700;
+      }
+      span {
+        display: block;
+        font-family: 'latoitalic';
+        color: #999;
+        font-size: 1.6rem;
+        padding: 20px 0;
+      }
+    }
+  }
+}

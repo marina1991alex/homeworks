@@ -1,0 +1,63 @@
+.internet-communication .content {
+  h1 {
+    padding: 0;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  li {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0 3px 0 0 #ccc;
+  }
+  span {
+    font-family: 'latoitalic';
+  }
+  .fa {
+    width: 16%;
+    font-size: 4rem;
+    display: block;
+    float: left;
+    margin-right: 20px;
+  }
+  .active h2,
+  .active span,
+  .active .fa,
+  li:hover h2,
+  li:hover .fa,
+  li:hover span {
+    color: white;
+  }
+}
+.internet-communication,
+.workflow,
+.blog,
+.contact-us {
+  .content {
+    text-align: left;
+    padding: 8% 0 10%;
+  }
+}
+.internet-communication .content li:hover,
+.internet-communication .content .active,
+.pricing .plan:hover a,
+.pricing .plan:hover h2 {
+  background-color: #ffca26;
+  color: white;
+}
+.internet-communication .content li:hover,
+.internet-communication .content .active,
+.pricing .plan:hover a,
+.pricing .plan:hover h2 {
+  background-color: #ffca26;
+  color: white;
+}

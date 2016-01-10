@@ -1,0 +1,85 @@
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	.sidebar_right .links li {
+		padding: 0;
+		padding-bottom: 10px;
+	}
+	.sidebars li {
+		width: 46%;
+	}
+	.content .home img,
+	.content .work img {
+		float: none;
+	}
+}
+@media screen and (max-width: 767px) {
+	.sidebar_left,
+	.sidebar_right,
+	.content {
+		float: none;
+		width: 100%;
+		padding: 10px 20px;
+		box-sizing: border-box;
+	}
+	.sidebar_left .description {
+		padding-bottom: 10px;
+	}
+	.sidebar_left .description img {
+		display: block;
+		margin: 0 auto;
+	}
+	.sidebar_right_img {
+		text-align: center;
+	}
+	.content .home_under_img,
+	.content .work_under_img {
+		margin-right: 0;
+	}
+	.content .work_under_img {
+		margin-top: 34px;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.sidebars li {
+		width: 47%;
+	}
+	.sidebar_left .search input {
+		width: 100%;
+	}
+	.home,
+	.work {
+		margin-bottom: 50px;
+	}
+	.home,
+	.home img,
+	.work,
+	.work img {
+		margin-right: 0;
+	}
+	.sidebar_left .categories,
+	.sidebar_left .pages,
+	.sidebar_left .search {
+		width: 28%;
+		display: inline-block;
+		margin-right: 20px;
+	}
+	.sidebar_left .pages {
+		padding-top: 0;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.sidebar_left {
+		width: 48%;
+	}
+	.content {
+		width: 84%;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 1255px) {
+	.content-section .wrapper {
+		width: 100%;
+	}
+	.sidebar_left .search input {
+		width: 100%;
+	}
+}

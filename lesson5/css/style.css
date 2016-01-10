@@ -1,22 +1,38 @@
-.wrapper {
+html {
+	font-size: 62.5%;
+}
+body {
+	font: 1.1rem Tahoma;
+}
+.header-section,
+.footer-section {
 	overflow: hidden;
 	width: 1034px;
 	margin: 0 auto;
 }
+.content-section {
+	background-color: #f4f4f4;
+}
+.content-section .wrapper {
+	overflow: hidden;
+	width: 1034px;
+	margin: 0 auto;
+}
+img {
+	max-width: 100%;
+}
+h1, h2, h3 {
+	color: #191919;
+}
 h1 {
 	font: 24px Myriad Pro;
-	color: #191919;
 	padding-bottom: 10px;
 	padding-top: 5px;
 }
 h2 {
 	font: 18px Myriad Pro;
-	color: #191919;
 }
 h3 {
-	font-family: Tahoma;
-	font-size: 11px;
-	color: #191919;
 	font-weight: bold;
 	margin-bottom: 5px;
 }
@@ -26,41 +42,27 @@ h3 {
 }
 .logo p{
 	font-family: VersaSansCon, MyriadPro, Tahoma;
-	Font-size: 18px;
-}
-.main{
-	background-color: #f4f4f4;
-	height: 1010px;
+	font-size: 1.8rem;
 }
 .sidebar_left{
+	overflow: hidden;
 	float:left;
-	height: 1010px;
 	width: 120px;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 20px 20px 0;
 }
 .description{
 	padding-bottom: 25px;
 }
 .description p{
-	font: 11px Tahoma;
 	line-height: 16px;
 	padding-bottom: 20px;
 	color: #555555;
 }
-.description img{
-	background-color: #e1e1e1;
-	height: 60px;
-	width: 120px;
-}
 .categories ul span {
 	float: right;
-	font: 11px Tahoma;
 	color: #888888;
 }
 .categories li {
-	font: 11px Tahoma;
 	background-color: #e8e8e8;
 	margin-bottom: 1px;
 	padding: 5px;
@@ -75,15 +77,12 @@ h3 {
 .pages{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	font: 11px Tahoma;
 }
 .pages li{
-	padding:5px;
+	padding: 5px;
 	background-color: #e8e8e8;
 	border-bottom: 1px solid #f4f4f4;
-	font: 11px Tahoma;
 	margin-bottom: 1px;
-	padding: 5px;
 }
 .pages li:hover {
 	background-color: #DDDDDD;
@@ -93,25 +92,23 @@ h3 {
 	color: #191919;
 }
 .search input[type="text"]{
-	width: 115px;
+	width: 109px;
 	border-style: none;
-	height: 20px;
+	padding: 5px;
 }
 .sidebar_right{
+	overflow: hidden;
 	float: right;
 	width:320px;
-	height: 1010px;
 	padding-top: 20px;
 	padding-right: 20px;
 }
 .twitter p{
-	font: 11px Tahoma;
 	font-weight: bold;
 	color: #191919;
 	text-decoration: none;
 }
 .twitter span {
-	font: 11px Tahoma;
 	color: #878787;
 }
 .twitter a img{
@@ -121,13 +118,11 @@ h3 {
 	-webkit-filter: none;
 }
 .rss p {
-	font: 11px Tahoma;
 	font-weight: bold;
 	color: #191919;
 	text-decoration: none;
 }
 .rss span {
-	font: 11px Tahoma;
 	color: #878787;
 }
 .rss a img {
@@ -143,15 +138,9 @@ h3 {
 	padding-right: 35px;
 }
 .links img{
-	width: 30px;
-	height: 30px;
 	float:left;
 	border: 0.5px solid #e1e1e1;
 	padding-right: 5px;
-}
-.sidebar_right_img img{
-	width: 320px;
-	height: 250px;
 }
 .sidebars li{
 	display: inline-table;
@@ -161,7 +150,6 @@ h3 {
 }
 .sidebar_right_left{
 	width: 160px;
-	font: 11px Tahoma;
 	padding-right: 20px;
 }
 li .sidebar_head{
@@ -170,39 +158,33 @@ li .sidebar_head{
 }
 .sidebar_right_right{
 	width: 120px;
-	font: 11px Tahoma;
 }
 .content{
+	overflow: hidden;
 	padding-top: 20px;
-	height: 1010px;
 }
 .content p {
-	font: 11px Tahoma;
 	color: #555555;
 }
 .lifestyle_travel li {
 	list-style-type: none;
 	display: inline;
-	font: 11px Tahoma;
 	color: #191919;
 }
 .content img {
-	width: 510px;
-	height: 250px;
 	margin-bottom: 20px;
 }
 .first_paragraph {
 	margin-bottom: 50px;
 }
 .first_paragraph .sentence {
-	font: 12px Tahoma;
+	font: 1.2rem Tahoma;
 	color: #555555;
 	margin-bottom: 25px;
 	line-height: 15px;
 } 
 .first_paragraph li {
 	list-style-type: none;
-	font: 11px Tahoma;
 }
 .share li {
 	display: inline-block;
@@ -255,7 +237,6 @@ li .sidebar_head{
 .home_family li{
 	list-style-type: none;
 	display: inline;
-	font: 11px Tahoma;
 	color: #191919;
 }
 .second_part {
@@ -266,26 +247,21 @@ li .sidebar_head{
 	margin-bottom: 60px;
 	margin-right: 20px;
 }
-.home h2{
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-right: 15px;
+.home h2,
+.work h2 {
+	padding: 5px 15px 5px 0;
 }
 .home p{
 	line-height: 15px;
 	color: #191919;
 }
 .home span {
-	font: 11px Tahoma;
 	color: #878787;
 }
-.home img {
-	width: 240px;
-	height: 125px;
+.home img,
+.work img {
 	float: right;
-	margin-right: 25px;
-	margin-bottom: 10px;
-	margin-left: 20px;
+	margin: 0 25px 10px 20px;
 }
 .home_under_img {
 	border-top: 1px solid #d6d6d6;
@@ -294,7 +270,6 @@ li .sidebar_head{
 	margin-top: 30px;
 }
 .home_under_img li {
-	font: 11px Tahoma;
 	color: #191919;
 }
 .work{
@@ -302,26 +277,12 @@ li .sidebar_head{
 	margin-bottom: 60px;
 	margin-right: 20px;
 }
-.work h2{
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-right: 15px;
-}
 .work p {
 	line-height: 15px;
 	color: #191919;
 }
 .work span {
-	font: 11px Tahoma;
 	color: #878787;
-}
-.work img {
-	width: 240px;
-	height: 125px;
-	float: right;
-	margin-right: 25px;
-	margin-bottom: 5px;
-	margin-left: 20px;
 }
 .work_under_img {
 	border-top: 1px solid #d6d6d6;
@@ -330,13 +291,14 @@ li .sidebar_head{
 	margin-top: 65px;
 }
 .work_under_img li{
-	font: 11px Tahoma;
 	color: #191919;
+}
+.page_selector {
+	margin-bottom: 20px;
 }
 .page_selector li{
 	display: inline;
 	color: #555555;
-	font: 11px Tahoma;
 }
 .page_selector li .page_select{
 	background-color: #555555;
@@ -356,10 +318,10 @@ li .sidebar_head{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
-	font: 11px Tahoma;
 	color: #555555;
 }
 .footer a {
 	text-decoration: none;
 	color: #555555;
 }
+@import url(media.css);
