@@ -1,0 +1,62 @@
+.our-works {
+  ul {
+    li {
+      display: inline-block;
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      margin: 0 0 30px 5px;
+      &.active {
+        background-color: #f1f1f1;
+      }
+    }
+  }
+  .mockups {
+    div {
+      padding: 0;
+    }
+  }
+  .nav-item {
+    .about {
+      position: absolute;
+      top: 0;
+      max-width: 205px;
+      max-height: 78px;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(245, 204, 82, 0.8);
+      text-align: center;
+      opacity: 0;
+      padding: 30% 0;
+      border: 10px solid #e0b945;
+    }
+    a {
+      border: 1px solid white;
+      border-radius: 50px;
+    }
+    a,
+    .fa {
+      width: 34px;
+      height: 33px;
+      color: white;
+      line-height: 17px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+    span {
+      font-size: 1.2rem;
+      font-family: 'latoitalic';
+      color: #960;
+    }
+    &:hover .about {
+      opacity: 1;
+    }
+  }
+}

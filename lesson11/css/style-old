@@ -1,0 +1,615 @@
+@import url(../fonts/stylesheet.css);
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'latoregular';
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 20px;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+h1 {
+  margin-bottom: 10px;
+}
+section {
+  overflow: hidden;
+  text-align: center;
+  padding: 10% 0;
+}
+section .intro {
+  position: relative;
+  margin-bottom: 80px;
+}
+section .intro::after {
+  content: " ";
+  background-image: url(../images/ethanol-logo.jpg);
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  bottom: -25px;
+  left: 47%;
+}
+section .intro h1,
+section .intro h1 span {
+  font-family: 'latolight';
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+section .intro h1 span {
+  font-family: 'latoregular';
+  color: #fc3;
+  font-weight: 700;
+}
+section .intro p {
+  font-family: 'latoitalic';
+  font-size: 2.2rem;
+  color: #999;
+  line-height: 30px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 50px;
+}
+/*--------------------- header --------------------*/
+header {
+  padding: 20px 0;
+  font-family: 'latobold';
+}
+header nav {
+  float: right;
+  padding-top: 10px;
+}
+header nav li {
+  display: inline-block;
+  padding-right: 18px;
+}
+header nav li a {
+  text-transform: uppercase;
+}
+/*--------------------- top --------------------*/
+.top {
+  background: url(../images/background.jpg) center no-repeat;
+  background-size: cover;
+  padding: 22% 0;
+  text-align: center;
+}
+.top h1 {
+  color: #fc3;
+  font-family: 'latobold';
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-bottom: 18px;
+}
+.top p,
+.top span {
+  color: white;
+  font-size: 2.2rem;
+}
+.top span {
+  padding: 70px 0 20px;
+  text-transform: uppercase;
+  border-bottom: 4px solid #ffca26;
+  display: inline-block;
+}
+/*--------------------- description --------------------*/
+.description {
+  background-color: #ffca26;
+}
+.description img {
+  margin: 0 auto;
+}
+.description p {
+  width: 74%;
+  margin: 0 auto;
+  padding-top: 22px;
+  font-size: 2.2rem;
+  color: white;
+  line-height: 30px;
+}
+/*--------------------- services --------------------*/
+.services .fa,
+.workflow .fa,
+.contact-us .fa {
+  font-size: 5.5rem;
+  color: white;
+}
+.services .icon,
+.workflow .icon,
+.contact-us .icon {
+  width: 129px;
+  height: 122px;
+  background-color: #fc3;
+  border: 6px solid white;
+  border-radius: 0 64px 64px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.services .r-position {
+  float: right;
+}
+.services .l-position {
+  float: left;
+}
+.services li,
+.workflow li {
+  padding-bottom: 70px;
+}
+.services .left-column li div {
+  overflow: hidden;
+  color: #999;
+  text-align: right;
+  padding-right: 10px;
+}
+.services .right-column li div {
+  overflow: hidden;
+  color: #999;
+  text-align: left;
+  padding-right: 10px;
+}
+.services .left-column li div h2,
+.services .right-column li div h2 {
+  font-family: 'latobold';
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.services .left-column li div p,
+.services .right-column li div p {
+  font-size: 1.6rem;
+}
+/*--------------------- professional-profile --------------------*/
+.professional-profile .content,
+.internet-communication .content,
+.workflow .content,
+.blog .content {
+  margin-top: 8%;
+  background-color: #f3f3f3;
+}
+.professional-profile .social-nets {
+  position: relative;
+}
+.professional-profile .social-nets ul {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+.professional-profile .social-nets ul li {
+  display: inline-block;
+}
+.professional-profile .social-nets ul li a,
+.team .info .social-nets a {
+  width: 67px;
+  height: 67px;
+  background-color: #ffca26;
+  color: white;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+.professional-profile .photo-caption {
+  width: 428px;
+  font-size: 2.9rem;
+  line-height: 36px;
+  color: #333;
+  text-align: center;
+  margin: 40px auto 0;
+}
+.professional-profile .photo-caption span {
+  font-size: 3.7rem;
+  font-weight: 700;
+}
+.professional-profile h2,
+.internet-communication .content h1,
+.workflow h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 50px 0 30px;
+  text-align: left;
+}
+.internet-communication h1,
+.workflow h2 {
+  text-transform: uppercase;
+}
+.professional-profile .content h3,
+.professional-profile .content p,
+.internet-communication .content p {
+  color: #999;
+  text-align: left;
+  margin-top: 14px;
+}
+.professional-profile .content p,
+.internet-communication .content p {
+  margin-bottom: 40px;
+}
+.professional-profile .progress {
+  background-color: #999;
+  height: 12px;
+  overflow: hidden;
+}
+.professional-profile .progress .progress-bar {
+  height: 12px;
+  background-color: #ffca26;
+}
+.professional-profile .statistics {
+  text-align: center;
+  margin-top: 60px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.professional-profile .statistics .container {
+  border-left: 1px solid #ccc;
+}
+.professional-profile .statistics li {
+  border-right: 1px solid #cccccc;
+}
+.professional-profile .statistics li i {
+  color: #ffcc33;
+  font-size: 7rem;
+  padding: 25% 0;
+}
+.professional-profile .statistics li div {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+.professional-profile .statistics li span {
+  display: block;
+  font-family: 'latoitalic';
+  color: #999;
+  font-size: 1.6rem;
+  padding: 20px 0;
+}
+/*--------------------- team --------------------*/
+.team .info div {
+  font-size: 3rem;
+  padding: 30px 0 20px;
+}
+.team .info span {
+  color: #ccc;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.team .info .social-nets a {
+  width: 39px;
+  height: 39px;
+  font-size: 2rem;
+}
+/*--------------------- internet-communication --------------------*/
+.internet-communication .content h1 {
+  padding: 0;
+}
+.internet-communication .content,
+.workflow .content,
+.blog .content,
+.contact-us .content {
+  text-align: left;
+  padding: 8% 0 10%;
+}
+.internet-communication .content h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 50px 0 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.internet-communication .content li {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  box-shadow: 0 3px 0 0 #ccc;
+}
+.internet-communication .content li:hover,
+.internet-communication .content .active,
+.pricing .plan:hover a,
+.pricing .plan:hover h2 {
+  background-color: #ffca26;
+  color: white;
+}
+.internet-communication .content .active h2,
+.internet-communication .content .active span,
+.internet-communication .content .active .fa,
+.internet-communication .content li:hover h2,
+.internet-communication .content li:hover .fa,
+.internet-communication .content li:hover span {
+  color: white;
+}
+.internet-communication .content .fa {
+  width: 16%;
+  font-size: 4rem;
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+.internet-communication .content h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.internet-communication .content span {
+  font-family: 'latoitalic';
+}
+/*--------------------- our-works --------------------*/
+.our-works ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin: 0 0 30px 5px;
+}
+.our-works ul li.active {
+  background-color: #f1f1f1;
+}
+.our-works .mockups div {
+  padding: 0;
+}
+.our-works .nav-item .about {
+  position: absolute;
+  top: 0;
+  max-width: 205px;
+  max-height: 78px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(245, 204, 82, 0.8);
+  text-align: center;
+  opacity: 0;
+  padding: 30% 0;
+  border: 10px solid #e0b945;
+}
+.our-works .nav-item a {
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.our-works .nav-item a,
+.our-woks .nav-item .fa {
+  width: 34px;
+  height: 33px;
+  color: white;
+  line-height: 17px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-works .nav-item h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.our-works .nav-item span {
+  font-size: 1.2rem;
+  font-family: 'latoitalic';
+  color: #960;
+}
+.our-works .nav-item:hover .about {
+  opacity: 1;
+}
+/*--------------------- workflow --------------------*/
+.workflow .content .icon {
+  float: left;
+  margin-right: 20px;
+}
+.workflow h2 {
+  font-size: 2rem;
+  line-height: 20px;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.workflow p {
+  color: #666;
+}
+/*--------------------- pricing --------------------*/
+.pricing .plan {
+  width: 30%;
+  float: left;
+  margin-right: 20px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 0;
+}
+.pricing .plan:hover {
+  transform: scale(1.1);
+  width: 32%;
+  margin-right: 14px;
+  margin-left: -6px;
+  border: 1px solid #fc3;
+}
+.pricing .plan h2 {
+  background-color: #333;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px 0;
+}
+.pricing .plan div {
+  font-size: 6.6rem;
+  font-weight: 700;
+  line-height: 15px;
+  color: #666;
+  padding: 40px 0;
+  border-bottom: 1px solid #333;
+}
+.pricing .plan:hover div {
+  border-bottom: 1px solid #fc3;
+}
+.pricing .plan div .dollar,
+.pricing .plan div .month {
+  color: #666;
+  font-size: 3.9rem;
+}
+.pricing .plan div .month {
+  font-size: 2.6rem;
+  font-weight: 400;
+}
+.pricing .plan ul li {
+  display: block;
+  color: #838383;
+  line-height: 40px;
+}
+.pricing .plan a {
+  display: block;
+  background-color: #333;
+  border: none;
+  width: 75%;
+  margin: 0 auto;
+  padding: 18px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.pricing .plan .trial {
+  color: #999;
+  font-size: 1.1rem;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+/*--------------------- blog --------------------*/
+.blog ul,
+.blog ul li {
+  display: inline-block;
+}
+.blog .article {
+  width: 460px;
+  background-color: #FFF;
+  margin: 4px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.blog .article .image {
+  float: left;
+  margin-right: 8px;
+}
+.blog .article span {
+  color: #999;
+  font-size: 1.1rem;
+}
+.blog .article h2 {
+  color: #666;
+  font-family: 'latobold';
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.blog .article p {
+  color: #999;
+  font-size: 1.4rem;
+  line-height: 22px;
+}
+.blog .article div:last-child {
+  border-top: 1px solid #e5e4e4;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+.blog .article li a {
+  color: #fc3;
+  font-size: 1.3rem;
+}
+.blog .article .like {
+  width: 74px;
+  height: 27px;
+  font-size: 1.4rem;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  margin-left: 90px;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog .article .like .fa {
+  color: #ff0707;
+  font-size: 2rem;
+  line-height: 20px;
+  padding-right: 18px;
+}
+.blog .load-more {
+  display: block;
+  width: 150px;
+  padding: 12px 20px;
+  text-align: center;
+  color: white;
+  background-color: #fc3;
+  border: 1px solid #e5e4e4;
+  border-radius: 4px;
+  margin: 50px auto;
+}
+/*--------------------- contact-us --------------------*/
+.contact-us .content {
+  text-align: center;
+}
+.contact-us .content ul {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.contact-us .content p {
+  color: #666;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.contact-us .content form input,
+.contact-us .content form textarea {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  color: #999;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.contact-us .content form input {
+  padding: 10px 16px;
+}
+.contact-us .content form textarea {
+  padding: 16px;
+}
+::-webkit-input-placeholder {
+  font-family: 'latoregular';
+}
+:-moz-placeholder {
+  font-family: 'latoregular';
+}
+:-moz-placeholder {
+  font-family: 'latoregular';
+}
+:-ms-input-placeholder {
+ font-family: 'latoregular';
+}
+/*--------------------- footer --------------------*/
+footer {
+  padding: 50px 0;
+  background-color: #fc3;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+footer a {
+  color: white;
+}
+footer ul li {
+  display: inline-block;
+}
+footer .links {
+  padding-left: 115px;
+}
+footer .links .fa {
+  font-size: 2.5rem;
+  padding-right: 20px;
+}

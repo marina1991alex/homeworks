@@ -1,0 +1,28 @@
+.top {
+  background: url(../images/background.jpg) center no-repeat;
+  background-size: cover;
+  padding: 22% 0;
+  text-align: center;
+
+  h1 {
+    color: #fc3;
+    font-family: 'latobold';
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+  }
+
+  p,
+  span {
+    color: white;
+    font-size: 2.2rem;
+  }
+
+  span {
+    padding: 70px 0 20px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #ffca26;
+    display: inline-block;
+  }
+}

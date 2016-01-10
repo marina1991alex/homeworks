@@ -1,0 +1,57 @@
+.services,
+.workflow,
+.contact-us {
+    .fa{
+      font-size: 5.5rem;
+      color: white;
+    }
+    .icon {
+      width: 129px;
+      height: 122px;
+      background-color: #fc3;
+      border: 6px solid white;
+      border-radius: 0 64px 64px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
+.services {
+
+  .r-position {
+    float: right;
+  }
+  .l-position {
+    float: left;
+  }
+  .left-column li div {
+    overflow: hidden;
+    color: #999;
+    text-align: right;
+    padding-right: 10px;
+  }
+  .right-column li div {
+    overflow: hidden;
+    color: #999;
+    text-align: left;
+    padding-right: 10px;
+  }
+  .left-column li div,
+  .right-column li div {
+    h2 {
+      font-family: 'latobold';
+      font-size: 2rem;
+      font-weight: 700;
+      padding: 10px 0;
+    }
+    p {
+      font-size: 1.6rem;
+    }
+  }
+}
+.services,
+.workflow {
+  li {
+    padding-bottom: 70px;
+  }
+}
