@@ -1,0 +1,17 @@
+@import url(../fonts/stylesheet.css);
+html {
+	font-size: 62.5%;
+}
+body {
+	background: url(../images/background.jpg);
+	background-size: cover;
+	padding: 19% 0;
+	text-align: center;
+	font-family: 'latobold';
+	font-size: 100px;
+	color: white;
+
+	li {
+		display: inline-block;
+	}
+}
