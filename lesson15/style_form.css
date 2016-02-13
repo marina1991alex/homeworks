@@ -1,0 +1,19 @@
+li {
+	list-style-type: none;
+	line-height: 25px;
+}
+li input[id="age"] {
+	width: 50px;
+}
+input[type="text"]{
+	width: 200px;
+}
+form {
+	width:50%;
+}
+.send {
+	margin-top: 20px;
+}
+.error {
+	color:red;
+}
